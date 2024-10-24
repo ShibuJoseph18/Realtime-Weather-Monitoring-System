@@ -18,7 +18,8 @@ const User = sequelize.define('User', {
   },
   phone_number: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
+    unique: true
   },
   temperature_unit: {
     type: DataTypes.ENUM('Celsius', 'Fahrenheit'),
