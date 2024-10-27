@@ -34,7 +34,7 @@ Before installation, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/weather-monitoring-system
+git clone
 cd weather-monitoring-system
 ```
 
@@ -90,7 +90,6 @@ npm run dev
 - Environment variable usage for sensitive data protection
 - Input validation to prevent SQL injection
 - Secure API key management
-- Database query optimization with indexed columns
 
 ## Dependencies
 
